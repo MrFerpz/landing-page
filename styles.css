@@ -1,5 +1,5 @@
 * {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -10,14 +10,67 @@
     align-items: center;
     background-color: #1f2937;
     color: white;
-    font-size: 24px;
-    border: solid black 5px;
+    font-size: 18px;
+    font-weight: bold;
     padding: 30px;
 }
 
-.image {
+.statement {
+    font-size: 30px;
+    text-align: center;
+    color: #1F2937;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.logo {
     display:flex;
     margin-right: auto;
     width: 20%;
     height: auto;
 }
+
+.firstsection {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+}
+
+.heading1 {
+    font-size: 24px;
+    font-weight: extra-bold;
+    padding: 20px;
+}
+
+.subheading1 {
+    padding: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3882f6;
+    color: white;
+    border: solid white 1px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.benefitimage {
+    width: 300px;
+    height: 300px;
+}
+
+.meetingimg {
+    width: 500px;
+    height: auto;
+}
+
